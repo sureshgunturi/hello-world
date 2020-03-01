@@ -1,1 +1,11 @@
-git credentialsId: 'dep', url: 'https://github.com/sureshgunturi/hello-world.git'
+pipeline {
+  agent any
+  stages {
+    stage("Stage 1") {
+      steps {
+        echo 'Hello world!'
+       }
+     }
+   }
+ }
+    
